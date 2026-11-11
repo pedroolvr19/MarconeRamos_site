@@ -168,3 +168,7 @@
 @media(max-width:900px){.header,.header.is-scrolled{gap:16px}.header .header-cta{margin-left:auto}.brand-text strong{font-size:18px}}
 @media(max-width:760px){.footer-identity{grid-column:1/-1;justify-self:start;align-items:flex-start}.footer-logo{width:145px;height:66px}}
 @media(max-width:380px){.header,.header.is-scrolled{gap:8px}.brand-text strong{font-size:16px}.header .brand-text small{font-size:10px}}
+
+.footer-name{display:flex;flex-direction:column;align-items:inherit;font-family:Georgia,serif;font-size:26px;line-height:1.1;color:var(--navy);text-decoration:none;letter-spacing:-.01em}
+.footer-name em{font-family:Manrope,sans-serif;font-style:normal;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#b86538;margin-top:6px}
+@media (max-width:760px){.footer-name{font-size:22px}}
