@@ -31,7 +31,7 @@ One-line positioning: *"Um nutricionista que já viveu a dificuldade e acompanha
 ## Operating Context
 
 - Entirely online. Flow: pre-consultation questionnaire → nutritional assessment (online video consultation in the teleconsulta modality) → individualized meal plan delivered within two business days → check-ins with feedback (photos when applicable) and plan adjustments.
-- All contact happens on WhatsApp; each modality/duration button generates a specific prefilled message (`site/dist/script.js`).
+- All contact happens on WhatsApp. Every link is a plain `wa.me` URL in `site/dist/index.html` (works without JavaScript) with a prefilled message matched to its intent: general interest, starting, each modality, choosing between modalities, a question, or privacy. Duration (mensal, trimestral, semestral, anual) is agreed in the conversation, not on the site.
 
 ## Capabilities and Constraints
 

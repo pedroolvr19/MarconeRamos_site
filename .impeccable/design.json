@@ -1,0 +1,426 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-11T06:41:41.265Z",
+  "title": "Design System: Marcone Ramos — Nutrição para a vida real",
+  "extensions": {
+    "colorMeta": {
+      "navy": {
+        "role": "primary",
+        "displayName": "Consultation Navy",
+        "canonical": "#102e40",
+        "tonalRamp": [
+          "#06141c",
+          "#0b2333",
+          "#102e40",
+          "#294b5d",
+          "#44606d",
+          "#66808c",
+          "#adc1c9",
+          "#e2e8eb"
+        ]
+      },
+      "navy-deep": {
+        "role": "primary",
+        "displayName": "Midnight Panel",
+        "canonical": "#0b2333",
+        "tonalRamp": [
+          "#040e15",
+          "#071d2b",
+          "#0b2333",
+          "#173547",
+          "#2d4b5c",
+          "#526773",
+          "#8ea2ac",
+          "#d4dde1"
+        ]
+      },
+      "navy-line": {
+        "role": "primary",
+        "displayName": "Harbor Rule",
+        "canonical": "#294b5d",
+        "tonalRamp": [
+          "#0e1d25",
+          "#1a3443",
+          "#294b5d",
+          "#3a5362",
+          "#526d7a",
+          "#76929f",
+          "#a6b6bd",
+          "#dde5e8"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Deep Ink",
+        "canonical": "#193747",
+        "tonalRamp": [
+          "#08151c",
+          "#102a37",
+          "#193747",
+          "#264252",
+          "#3e5866",
+          "#637882",
+          "#9eb0b8",
+          "#e1e7ea"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Quiet Slate",
+        "canonical": "#5a676e",
+        "tonalRamp": [
+          "#1e2427",
+          "#343e43",
+          "#4b575e",
+          "#64727a",
+          "#7b888e",
+          "#9aa4a9",
+          "#c3cacd",
+          "#eceff0"
+        ]
+      },
+      "apricot": {
+        "role": "secondary",
+        "displayName": "Apricot",
+        "canonical": "#eea476",
+        "tonalRamp": [
+          "#4a2410",
+          "#7a3f1f",
+          "#a65b34",
+          "#c97e52",
+          "#eea476",
+          "#f5b58c",
+          "#f8d2b7",
+          "#fdf0e6"
+        ]
+      },
+      "terracotta": {
+        "role": "secondary",
+        "displayName": "Terracotta",
+        "canonical": "#b86538",
+        "tonalRamp": [
+          "#3a1c0c",
+          "#5e2e14",
+          "#8a4422",
+          "#a85b34",
+          "#b86538",
+          "#c99575",
+          "#e3c4ae",
+          "#f7ebe2"
+        ]
+      },
+      "focus-copper": {
+        "role": "secondary",
+        "displayName": "Copper Focus",
+        "canonical": "#c66b36",
+        "tonalRamp": [
+          "#3d1d0b",
+          "#653014",
+          "#8f451e",
+          "#c66b36",
+          "#d58858",
+          "#e2a782",
+          "#efcbb3",
+          "#faede4"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "canonical": "#faf9f6",
+        "tonalRamp": [
+          "#2a2925",
+          "#4b4a44",
+          "#7a7870",
+          "#a8a69d",
+          "#d3d1c8",
+          "#e8e7df",
+          "#f1eee7",
+          "#faf9f6"
+        ]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Linen",
+        "canonical": "#f1eee7",
+        "tonalRamp": [
+          "#29261f",
+          "#4a463c",
+          "#77715f",
+          "#a59e89",
+          "#cfc8b4",
+          "#e3ded1",
+          "#f1eee7",
+          "#faf8f3"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#dce1e0",
+        "tonalRamp": [
+          "#242827",
+          "#414847",
+          "#677170",
+          "#8f9998",
+          "#b7c3c8",
+          "#cbd4d0",
+          "#dce1e0",
+          "#f0f2f1"
+        ]
+      },
+      "terracotta-text": {
+        "role": "secondary",
+        "displayName": "Deep Terracotta",
+        "canonical": "#9c522b",
+        "tonalRamp": [
+          "#33190b",
+          "#552a12",
+          "#7a3c1b",
+          "#9c522b",
+          "#b86538",
+          "#c99575",
+          "#e3c4ae",
+          "#f7ebe2"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero h1 only; one per page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section h2s, ending in a colored <em> phrase."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Plan, pillar and timeline step names."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Base reading text; section copy usually 13–15px."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Hero subhead, max-width ~475px."
+      },
+      "label": {
+        "displayName": "Eyebrow / Label",
+        "purpose": "Uppercase section kickers and button text weight."
+      },
+      "serif-accent": {
+        "displayName": "Serif Accent",
+        "purpose": "Signature, footer name and quote glyphs only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "lift",
+        "value": "0 12px 25px #102e4033",
+        "purpose": "Primary button hover/focus, with translateY(-5px)."
+      },
+      {
+        "name": "cta-lift",
+        "value": "0 8px 20px #102e4033",
+        "purpose": "Header CTA hover."
+      },
+      {
+        "name": "photo-lift",
+        "value": "0 18px 38px #102e4030",
+        "purpose": "Photo frame hover, with 1.08 image zoom."
+      },
+      {
+        "name": "dropdown",
+        "value": "0 12px 20px #102e401a",
+        "purpose": "Mobile navigation panel."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-hover",
+        "value": ".28s ease",
+        "purpose": "Button color, lift and arrow nudge."
+      },
+      {
+        "name": "ease-reveal",
+        "value": "opacity .8s ease, transform .8s cubic-bezier(.2,.65,.3,1)",
+        "purpose": "Sections rising 32px into view on scroll."
+      },
+      {
+        "name": "ease-photo",
+        "value": "transform .7s cubic-bezier(.2,.65,.3,1)",
+        "purpose": "Slow photo zoom on hover."
+      },
+      {
+        "name": "nav-underline",
+        "value": "transform .25s ease",
+        "purpose": "Apricot underline scaling in from the left."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "xs",
+        "value": "380px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      },
+      {
+        "name": "nav-collapse",
+        "value": "900px"
+      },
+      {
+        "name": "tablet",
+        "value": "1100px"
+      },
+      {
+        "name": "wide",
+        "value": "1600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Apricot action with a direction glyph; flips to navy and lifts on hover.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Quero saber mais sobre esse plano <span>↗</span></a>",
+      "css": ".ds-btn-primary{display:inline-flex;justify-content:space-between;align-items:center;gap:22px;background:#eea476;color:#173242;border-radius:5px;padding:17px 22px;font:700 12px/1.5 'DM Sans',sans-serif;text-decoration:none;transition:background-color .28s ease,color .28s ease,box-shadow .28s ease,transform .28s ease}.ds-btn-primary span{display:inline-block;font-size:21px;font-weight:400;transition:transform .28s ease}.ds-btn-primary:hover,.ds-btn-primary:focus-visible{background:#102e40;color:#fff;transform:translateY(-5px);box-shadow:0 12px 25px #102e4033}.ds-btn-primary:hover span,.ds-btn-primary:focus-visible span{transform:translate(5px,-5px)}.ds-btn-primary:focus-visible{outline:3px solid #c66b36;outline-offset:5px}.ds-btn-primary:active{transform:translateY(1px);box-shadow:none}"
+    },
+    {
+      "name": "Header CTA",
+      "kind": "button",
+      "refersTo": "header-cta",
+      "description": "Compact apricot CTA on the navy header; goes white on hover.",
+      "html": "<div style=\"background:#102e40;padding:16px\"><a class=\"ds-header-cta\" href=\"#\">Vamos conversar <span>↗</span></a></div>",
+      "css": ".ds-header-cta{display:inline-block;font:600 12px 'DM Sans',sans-serif;background:#eea476;color:#102e40;border:1px solid #eea476;border-radius:5px;padding:9px 14px;text-decoration:none;white-space:nowrap;transition:background-color .28s ease,border-color .28s ease,transform .28s ease}.ds-header-cta span{display:inline-block;margin-left:10px;transition:transform .28s ease}.ds-header-cta:hover,.ds-header-cta:focus-visible{background:#fff;border-color:#fff;transform:translateY(-3px)}.ds-header-cta:hover span{transform:translate(5px,-5px)}.ds-header-cta:focus-visible{outline:3px solid #c66b36;outline-offset:5px}"
+    },
+    {
+      "name": "Text Link",
+      "kind": "custom",
+      "description": "Secondary terracotta link with an underline rule.",
+      "html": "<a class=\"ds-text-link\" href=\"#\">Quero dar o primeiro passo ↗</a>",
+      "css": ".ds-text-link{font:12px 'DM Sans',sans-serif;display:inline-block;color:#a85b34;border-bottom:1px solid #c99575;padding-bottom:5px;text-decoration:none;transition:color .2s ease}.ds-text-link:hover{color:#193747}.ds-text-link:focus-visible{outline:3px solid #c66b36;outline-offset:5px}"
+    },
+    {
+      "name": "Plan Card",
+      "kind": "card",
+      "refersTo": "plan-card",
+      "description": "Paper card on linen: title, description, comparable list (✓ shared, – missing, + added), full-width CTA and reassurance line.",
+      "html": "<div style=\"background:#f1eee7;padding:24px\"><article class=\"ds-plan\"><h3>Online <em>com teleconsulta</em></h3><p>Plano alimentar e suporte, com consulta online para aprofundar a avaliação.</p><ul><li>Planejamento alimentar individualizado</li><li class=\"plus\">Consulta nutricional online agendada</li></ul><a class=\"ds-plan-btn\" href=\"#\">Conversar sobre o plano com teleconsulta <span>↗</span></a><p class=\"ds-plan-note\">Você recebe os valores pelo WhatsApp e decide com calma, sem compromisso.</p></article></div>",
+      "css": ".ds-plan{border:1px solid #d5dad5;background:#faf9f6;padding:35px;border-radius:8px;display:flex;flex-direction:column;color:#193747;font-family:'DM Sans',sans-serif;max-width:460px}.ds-plan-label{display:flex;justify-content:space-between;align-items:center;font-size:8px;letter-spacing:.13em;margin-bottom:27px}.ds-plan-label span{font-size:23px;color:#a86b48}.ds-plan h3{font:500 29px/1.14 Manrope,sans-serif;letter-spacing:-.045em;margin:0 0 20px}.ds-plan h3 em{font-style:normal;font-size:21px;color:#b86538}.ds-plan p{font-size:13px;color:#64727a;margin:0 0 8px}.ds-plan ul{padding:18px 0 8px;border-top:1px solid #dce1e0;list-style:none;font-size:12px;margin:0 0 26px}.ds-plan li{margin-bottom:12px}.ds-plan li:before{content:'✓';color:#b96e42;margin-right:12px}.ds-plan-btn{display:flex;justify-content:space-between;align-items:center;background:#eea476;color:#173242;border-radius:5px;padding:17px 22px;font-weight:700;font-size:12px;text-decoration:none;transition:background-color .28s ease,color .28s ease,transform .28s ease,box-shadow .28s ease}.ds-plan-btn span{font-size:21px;font-weight:400}.ds-plan-btn:hover,.ds-plan-btn:focus-visible{background:#102e40;color:#fff;transform:translateY(-5px);box-shadow:0 12px 25px #102e4033}.ds-plan li.plus{font-weight:600}.ds-plan li.plus:before{content:'+';font-weight:700}.ds-plan-note{margin:14px 0 0;font-size:13px;color:#5a676e;text-align:center}"
+    },
+    {
+      "name": "Review Card",
+      "kind": "card",
+      "refersTo": "review-card",
+      "description": "Patient quote card inside the navy band.",
+      "html": "<div style=\"background:#102e40;padding:24px\"><article class=\"ds-review\"><div class=\"ds-review-quote\">“</div><blockquote>A dieta se encaixou bem na minha rotina. Tô conseguindo seguir direitinho.</blockquote><p class=\"ds-review-author\">PACIENTE · ADAPTAÇÃO À ROTINA</p></article></div>",
+      "css": ".ds-review{display:flex;flex-direction:column;padding:30px;border:1px solid #526773;border-radius:22px;background:#0b2333;max-width:360px;font-family:'DM Sans',sans-serif}.ds-review-quote{font-family:Georgia,serif;color:#eea476;font-size:52px;line-height:.8;margin-bottom:24px}.ds-review blockquote{margin:0 0 26px;font-size:15px;line-height:1.8;color:#f3f4ef}.ds-review-author{margin:auto 0 0;color:#b5c7cd;font-size:9px;font-weight:600;letter-spacing:.09em}"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "refersTo": "header",
+      "description": "Sticky navy header with text identity, apricot underline hover and CTA.",
+      "html": "<header class=\"ds-header\"><a class=\"ds-brand\" href=\"#\"><strong>Marcone Ramos</strong><small>Nutri</small></a><nav><a href=\"#\">Sobre mim</a><a href=\"#\">O acompanhamento</a><a href=\"#\">Modalidades</a><a href=\"#\">Dúvidas</a></nav><a class=\"ds-cta\" href=\"#\">Vamos conversar ↗</a></header>",
+      "css": ".ds-header{height:70px;display:flex;align-items:center;justify-content:center;gap:40px;padding:0 24px;background:#102e40;color:#fff;border-bottom:1px solid #294b5d;font-family:'DM Sans',sans-serif}.ds-brand{display:flex;flex-direction:column;line-height:1.15;color:inherit;text-decoration:none}.ds-brand strong{font:700 20px Manrope,sans-serif;letter-spacing:-.035em}.ds-brand small{font-size:11px;letter-spacing:.13em;color:#eea476}.ds-header nav{display:flex;gap:24px;font-size:13px}.ds-header nav a{position:relative;color:inherit;text-decoration:none;transition:color .25s ease}.ds-header nav a:after{content:'';position:absolute;bottom:-6px;left:0;width:100%;height:2px;background:#eea476;transform:scaleX(0);transform-origin:left;transition:transform .25s ease}.ds-header nav a:hover{color:#eea476}.ds-header nav a:hover:after,.ds-header nav a:focus-visible:after{transform:scaleX(1)}.ds-header a:focus-visible{outline:3px solid #c66b36;outline-offset:5px}.ds-cta{font-size:12px;font-weight:600;background:#eea476;color:#102e40;border-radius:5px;padding:9px 14px;text-decoration:none}.ds-cta:hover{background:#fff}"
+    },
+    {
+      "name": "Swept Photo Frame",
+      "kind": "custom",
+      "description": "Real photo with one oversized corner and a navy caption gradient.",
+      "html": "<figure class=\"ds-photo\"><div class=\"ds-photo-img\"></div><figcaption><strong>Marcone Ramos</strong><small>Nutricionista · CRN 51047</small></figcaption></figure>",
+      "css": ".ds-photo{position:relative;margin:0;width:280px;height:350px;overflow:hidden;background:#102e40;border-radius:130px 10px 10px 10px;transition:box-shadow .45s ease;font-family:'DM Sans',sans-serif}.ds-photo-img{position:absolute;inset:0;background:linear-gradient(160deg,#44606d,#102e40);transition:transform .7s cubic-bezier(.2,.65,.3,1)}.ds-photo:after{content:'';position:absolute;inset:50% 0 0;background:linear-gradient(transparent,rgba(8,27,39,.88))}.ds-photo figcaption{position:absolute;z-index:1;bottom:24px;left:24px;color:#fff}.ds-photo strong{display:block;font:500 24px Manrope,sans-serif;letter-spacing:-.04em}.ds-photo small{font-size:10px;color:#e2e8eb}.ds-photo:hover{box-shadow:0 18px 38px #102e4030}.ds-photo:hover .ds-photo-img{transform:scale(1.08)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Warm Consultation",
+    "overview": "The site should feel like sitting across from a nutritionist who takes you seriously and is also on your side. Deep navy carries the professional authority: credentials, structure, the \"this is a real health service\" signal. Apricot and terracotta bring the warmth: the human, been-there side of Marcone's story. Neither tips over. It never goes clinical-white and it never goes wellness-pastel.\n\nIt is a single long page in an editorial rhythm. Calm paper sections alternate with full-bleed navy bands, so the scroll reads as a sequence of consultations: who he is, what's included, how it works, which plan, what patients say, questions, contact. Typography is modern and slightly tight (Manrope, negative tracking), body text is friendly and open (DM Sans), and Georgia shows up only for small human gestures like the signature, quote marks and the footer name. Real photographs of Marcone are the only imagery, framed in shapes with one dramatically swept corner.\n\nDensity is generous: large section padding, wide gutters, few elements per row. Motion is quiet: content rises gently into view, buttons lift on hover, and the arrow glyph nudges toward its destination.",
+    "keyCharacteristics": [
+      "Navy and paper bands alternate down the page; cream is reserved for the plans section.",
+      "One accent pair: apricot for actions on any ground, terracotta for emphasized words on light ground.",
+      "Emphasis in headlines is a color shift on the final words (`<em>` without italics), never bold or underline.",
+      "Photo frames with a single oversized rounded corner; everything else is gently squared (4–10px).",
+      "Arrow glyphs (↗ ↓) inside CTAs and links signal direction and destination (WhatsApp vs. on-page).",
+      "Flat at rest; shadows appear only as hover feedback."
+    ],
+    "rules": [
+      {
+        "name": "The Two Temperatures Rule",
+        "body": "Every screen holds both navy and a warm accent. A section that is all paper still carries terracotta emphasis; a navy band still carries apricot.",
+        "section": "colors"
+      },
+      {
+        "name": "The Apricot Is for Action Rule",
+        "body": "Apricot fills mean \"this takes you somewhere\" (WhatsApp, plans). Don't use apricot as a decorative background block.",
+        "section": "colors"
+      },
+      {
+        "name": "The Terracotta on Paper Rule",
+        "body": "Warm text on light ground is terracotta, never apricot. Below heading size, use Deep Terracotta.",
+        "section": "colors"
+      },
+      {
+        "name": "The Colored Ending Rule",
+        "body": "Headline emphasis is a color change on the closing words (\"…seus *resultados.*\"), with `font-style: normal`. One emphasized phrase per heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The Serif Whisper Rule",
+        "body": "Georgia appears only at human touchpoints (signature, quotes, footer name), never for headings or UI.",
+        "section": "typography"
+      },
+      {
+        "name": "The No Kicker Rule",
+        "body": "Headings stand alone. No uppercase label, section number or dot sits above a heading; the heading and its colored ending carry the section.",
+        "section": "typography"
+      },
+      {
+        "name": "The 12px Floor Rule",
+        "body": "No text renders below 12px at any width; functional text (buttons, chips, links) is 13–14px.",
+        "section": "typography"
+      },
+      {
+        "name": "The Uneven Split Rule",
+        "body": "Two-column sections use unequal fractions and generous gutters; avoid 50/50 grids for copy-plus-image.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat-By-Default Rule",
+        "body": "Nothing casts a shadow until the visitor touches it.",
+        "section": "elevation"
+      },
+      {
+        "name": "The One Sweep Rule",
+        "body": "Each photo gets exactly one large corner. Never round all four corners of a photo, and never sweep a UI element.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do alternate paper and navy bands, keeping cream for the plans section.",
+      "Do end headlines with a colored, non-italic `<em>` phrase: terracotta on paper, apricot on navy.",
+      "Do put a direction glyph (↗ external/WhatsApp, ↓ on-page) in every CTA, hidden from screen readers, with \"(abre o WhatsApp em nova aba)\" as screen-reader text on WhatsApp links.",
+      "Do ship every WhatsApp link as a complete `wa.me` URL in the HTML so contact works without JavaScript, with a prefilled message that matches the link's intent.",
+      "Do frame real photos of Marcone with one swept corner and set `object-position` per breakpoint to keep his face in view.",
+      "Do tint every shadow, overlay and backdrop with navy (#102e40 / #071d2b), never neutral grey or black.",
+      "Do keep the 3px copper focus outline with 5px offset, and 44px touch targets on mobile.",
+      "Do honor `prefers-reduced-motion`: reveals render in place, hover lifts and zooms are disabled."
+    ],
+    "donts": [
+      "Don't put an uppercase kicker, section number or dot above a heading.",
+      "Don't auto-advance content or hide testimonials behind a carousel.",
+      "Don't use apricot as text on paper or cream; use terracotta.",
+      "Don't introduce a third accent hue. Navy plus the apricot/terracotta pair is the whole palette.",
+      "Don't add stock imagery, illustrations of food or before/after visuals; the only imagery is real photos of Marcone.",
+      "Don't add resting shadows to cards or sections.",
+      "Don't round all corners of a photo or apply the sweep to buttons and cards.",
+      "Don't use Georgia for headings or UI text.",
+      "Don't set any text below 12px."
+    ]
+  }
+}

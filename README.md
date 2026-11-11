@@ -18,7 +18,7 @@ Hospedado na Vercel a partir deste repositório: diretório raiz `site/dist`, se
 - Instagram: [@marconeramosnutri](https://www.instagram.com/marconeramosnutri/), com link no rodapé.
 - A política de privacidade (janela no rodapé) informa a hospedagem na Vercel e foi atualizada em novembro de 2026.
 
-O número de contato e as mensagens estão em `site/dist/script.js`. As modalidades permitem selecionar a duração e geram mensagens específicas para WhatsApp. Não há preços, depoimentos fictícios, formulário de coleta de dados ou ferramentas de rastreamento.
+O número de contato e as mensagens prontas ficam nos links `wa.me` do `site/dist/index.html`, então o contato funciona mesmo sem JavaScript. Cada modalidade gera uma mensagem específica para o WhatsApp; a duração é combinada na conversa. Não há preços, depoimentos fictícios, formulário de coleta de dados ou ferramentas de rastreamento.
 
 Público, diferenciais e princípios do site estão em `PRODUCT.md`.
 
